@@ -1,0 +1,6 @@
+{
+  "messages": [
+    { "user": "bat", "chat": "ok" },
+    { "user": "user", "chat": "chat" }
+  ]
+}
