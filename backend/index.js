@@ -43,11 +43,11 @@ io.on("connection", (socket) => {
 
 router.get("/", function (req, res) {
   fs.readFile("data/data.json", (error, data) => {
-    let chat = JSON.parse(data);
+    // let chat = JSON.parse(data);
     if (error) {
       throw error;
     } else {
-      res.send(chat);
+      res.send(data);
     }
   });
 });
